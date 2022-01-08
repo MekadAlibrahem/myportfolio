@@ -1,0 +1,22 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "this repo includes my projects and cv \u001b[D\u001b[D\u001b[D\u001b[D my cd ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MekadAlibrahem/myportfolio.git"
+  },
+  "author": "Mekad Alibrahem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MekadAlibrahem/myportfolio/issues"
+  },
+  "homepage": "https://github.com/MekadAlibrahem/myportfolio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
