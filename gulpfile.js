@@ -3,6 +3,9 @@ var concat = require('gulp-concat');
 var autoPrefixer = require('gulp-autoprefixer');
 var mapSources = require('gulp-sourcemaps');
 var sass = require('gulp-sass')(require('sass')) ;
+var pug  = require('gulp-pug');
+var notify = require('gulp-notify');
+
 
 
 gulp.task('test' , async function(){
@@ -26,3 +29,10 @@ gulp.task('lib-js' , async function(){
     .pipe(mapSources.write('.'))
     .pipe(gulp.dest("dest/lib/js/"))
  });
+
+ gulp.task('lib-index-html' , async function(){
+     return gulp.src('project/html/components/index.pug')
+     .pipe(pug({pretty : true}))
+     .pipe(gulp.dest('dest/components/index.html'))
+     .pipe(notify("component/index.pug complete"))
+ } );
