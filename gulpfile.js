@@ -20,6 +20,7 @@ gulp.task('lib-sass' , async function(){
     .pipe(concat('M-all.css'))
     .pipe(mapSources.write('.'))
     .pipe(gulp.dest("dest/lib/css/"))
+    .pipe(notify("sass/component complete"))
     
 });
 gulp.task('lib-js' , async function(){
@@ -28,6 +29,7 @@ gulp.task('lib-js' , async function(){
     .pipe(concat('M-js.js'))
     .pipe(mapSources.write('.'))
     .pipe(gulp.dest("dest/lib/js/"))
+    .pipe(notify("js/component complete"))
  });
 
  gulp.task('lib-index-html' , async function(){
