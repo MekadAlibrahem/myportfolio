@@ -1,1 +1,1 @@
-{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA;IACI,uBAAuB;AAC3B","file":"M-all.css","sourcesContent":["*{\r\n    background-color:  red ;;\r\n}"]}
+{"version":3,"sources":["main.sass","main.css"],"names":[],"mappings":"AACA;EACI,eAAA;ACAJ","file":"M-all.css","sourcesContent":["\r\np \r\n    font-size:14px\r\n    \r\n    \r\n","p {\n  font-size: 14px;\n}"]}
