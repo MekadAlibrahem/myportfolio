@@ -1,1 +1,1 @@
-{"version":3,"sources":["main.sass","main.css"],"names":[],"mappings":"AACA;EACI,eAAA;ACAJ","file":"M-all.css","sourcesContent":["\r\np \r\n    font-size:14px\r\n    \r\n    \r\n","p {\n  font-size: 14px;\n}"]}
+{"version":3,"sources":["main.sass","main.css"],"names":[],"mappings":"AACA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;ACAF","file":"M-all.css","sourcesContent":["\r\n*\r\n  margin: 0\r\n  padding:  0\r\n  box-sizing: border-box\r\n\r\n@import 'variable'\r\n","* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}"]}

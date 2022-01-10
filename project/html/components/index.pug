@@ -1,9 +1,14 @@
-html 
+html
     head
-        meta(http-equiv="Content-Type", content="text/html " charset="UTF-8") 
-        
-        title component page 
-    
-    body
-        div  test pages 
+        meta(http-equiv="Content-Type", content="text/html " charset="UTF-8")
 
+        title component page
+        include ./layout/linkscss
+
+    body
+        include ./layout/header
+        div  test pages
+
+        script(src="lib/js/jquery3.6.js")
+        script(src="lib/js/M-js.js")
+        script(src="http://localhost:35729/livereload.js")
